@@ -10,7 +10,7 @@ function createWindow(){
     // Load a local HTML file or a web URL
     win.loadFile('index.html');
     // or load a remote URL
-    // win.loadURL('')
+    // win.loadURL('https://www.ipchicken.com/')
 }
 
 app.whenReady().then(createWindow);
